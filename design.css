@@ -1,0 +1,37 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.chart.labels.x-labels {
+	text-anchor: middle;
+}
+
+.graph .labels.y-labels {
+	text-anchor: end;
+}
+
+.graph {
+	height: 500px;
+	width: 900px;
+}
+
+.graph .grid {
+	stroke: #ccc;
+	stroke-dasharray: 0;
+	stroke-width: 1;
+}
+
+.labels {
+	font-size: 13px;
+}
+
+.label-title {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 12px;
+	fill: black;
+}
+
+#chart2018 {
+	display: none;
+}

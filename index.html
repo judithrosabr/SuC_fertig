@@ -1,0 +1,183 @@
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <link rel="stylesheet" href="design.css">
+     <font color=" #bf82fb ">
+      <title>World Happiness Report</title>
+   </head>
+   <body>
+      <h1> World Happiness Report </h1>
+      <h2> 2017 vs. 2018 </h2>
+      <!-- Diagramm -->
+
+     <img src="http://cdn1.vienna.at/2018/04/Tiergarten-Sch%C3%B6nbrunn-APADANIEL-ZUPANC-650x435.jpg" alt="Faultier" />
+
+      <h2> Data </h2>
+     <p style="margin-bottom: 30px">
+      <table>
+         <tr>
+            <th>Score</th>
+            <th>Austria</th>
+            <th>USA</th>
+            <th>Australia</th>
+            <th>South Korea
+            <th>Central African Republik</th>
+            </th>
+         </tr>
+         <tr>
+            <td>2017</td>
+            <td>7.006</td>
+            <td>6.993</td>
+            <td>7.284</td>
+            <td>5.838</td>
+            <td>2.693</td>
+         </tr>
+         <tr>
+            <td>2018</td>
+            <td>7.139</td>
+            <td>6.886</td>
+            <td>7.272</td>
+            <td>5.875</td>
+            <td>3.083</td>
+         </tr>
+     </table> </p>
+      <table>
+         <tr>
+            <th>Ranking</th>
+            <th>Austria</th>
+            <th>USA</th>
+            <th>Australia</th>
+            <th>South Korea
+            <th>Central African Republik</th>
+            </th>
+         </tr>
+         <tr>
+            <td>2017</td>
+            <td>13</td>
+            <td>14</td>
+            <td>9</td>
+            <td>56</td>
+            <td>155</td>
+         </tr>
+         <tr>
+            <td>2018</td>
+            <td>12</td>
+            <td>18</td>
+            <td>10</td>
+            <td>57</td>
+            <td>155</td>
+         </tr>
+      </table>
+
+<p style="margin-bottom: 60px">
+      <div>
+         <h2> Vergleich 2017 - 2018 </h2>
+         <button type="button" id="button2017">2017</button>
+         <button type="button" id="button2018">2018</button>
+      </div>
+      <svg id="chart2017" version="1.2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="graph" aria-labelledby="title" role="img">
+         <title> Happiness Scores 2017</title>
+         <g class="grid x-grid" id="xGrid">
+            <line x1="90", x2="90", y1="5", y2="370"> </line>
+         </g>
+         <g class="grid y-grid" id="yGrid">
+            <line x1="90", x2="850", y1="370", y2="370"> </line>
+         </g>
+         <g class="labels x-labels">
+            <text x="100", y="400"> Austria </text>
+            <text x="246" y="400"> USA </text>
+            <text x="392" y="400"> Australia </text>
+            <text x="538" y="400"> South Korea </text>
+            <text x="684" y="400"> Central African Republic </text>
+         </g>
+         <g class="labels y-labels">
+            <text x="80" y="15">9</text>
+            <text x="80" y="131">6</text>
+            <text x="80" y="248">3</text>
+            <text x="80" y="373">0</text>
+            <text x="80" y="200" class="label-title">Scores 2017</text>
+         </g>
+         <g class="data" data-setname="Happiness Scores 2017"> </g>
+         <g class = "bar1">
+            <rect width="60" height="288" data-value="7.006" x="100" y="82">
+         </g>
+         <g class="bar2">
+            <rect width="60" height="286" data-value="6.993" x="240" y="84">
+         </g>
+         <g class="bar3">
+            <rect width="60" height="299" data-value="7.284" x="392" y="71">
+         </g>
+         <g class="bar4">
+            <rect width="60" height="240" data-value="5.838" x="545" y="130">
+         </g>
+         <g class="bar5">
+            <rect width="60" height="110" data-value="2.693" x="700" y="260">
+         </g>
+      </svg>
+      <svg id="chart2018" version="1.2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="graph" aria-labelledby="title" role="img">
+         <title> Happiness Scores 2018</title>
+         <g class="grid x-grid" id="xGrid">
+            <line x1="90", x2="90", y1="5", y2="370"> </line>
+         </g>
+         <g class="grid y-grid" id="yGrid">
+            <line x1="90", x2="850", y1="370", y2="370"> </line>
+         </g>
+         <g class="labels x-labels">
+            <text x="100", y="400"> Austria </text>
+            <text x="246" y="400"> USA </text>
+            <text x="392" y="400"> Australia </text>
+            <text x="538" y="400"> South Korea </text>
+            <text x="684" y="400"> Central African Republic </text>
+         </g>
+         <g class="labels y-labels">
+            <text x="80" y="15">9</text>
+            <text x="80" y="131">6</text>
+            <text x="80" y="248">3</text>
+            <text x="80" y="373">0</text>
+            <text x="80" y="200" class="label-title">Scores 2018</text>
+         </g>
+         <g class = "bar1">
+            <rect width="60"   x="100" >
+         </g>
+         <g class="bar2">
+            <rect width="60"   x="240" >
+         </g>
+         <g class="bar3">
+            <rect width="60"   x="392" >
+         </g>
+         <g class="bar4">
+            <rect width="60"  x="545" >
+         </g>
+         <g class="bar5">
+            <rect width="60" height="110" data-value="2.693" x="700" y="260">
+         </g>
+      </svg>
+      <h2> Scores 2018 </h2>
+           <ul id="scores2018"> </ul> </p>
+
+      <h2> Das Team </h2>
+      <ul>
+        <li><strong>Brossmann Judith</strong></li>
+        Die treibende Kraft.<br>
+        Verantwortlich für: Die geistige Stabilität des Teams.
+        <li><strong>Köberl Elisabeth</strong></li>
+        Die gute Seele.<br>
+        Verantwortlich für: Die gute Stimmung beim Arbeiten.
+        <li><strong>Maierl Julia</strong></li>
+        Das Organisationstalent.<br>
+        Verantwortlich für: Den Durchblick.
+        <li><strong>Herzog Julia</strong></li>
+        Der notwendige Sarkasmus.<br>
+        Verantwortlich für: Das Aufbauen nach einer erfolglosen Stunde.
+        <li><strong>Lagger Ana</strong></li>
+        Der Moodmaker.<br>
+        Verantwortlich für: Das hübsche Lila und das Faultier.
+       </ul>
+      <h2> Abhängigkeiten, Quellen </h2>
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/script.js"></script>
+      <a href="https://www.zoovienna.at/">Niedliches Faultier: Tiergarten Schönbrunn</a> <br>
+           <a href="https://www.w3schools.com/html/"> Zum fröhlichen Befehle nachschlagen: W3schools</a>
+   </font>
+       </body>
+</html>
